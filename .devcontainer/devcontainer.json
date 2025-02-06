@@ -1,11 +1,9 @@
 {
     "name": "DeepSeek local Demo",
-    "image": "pytorch/pytorch:2.6.0-cuda12.6-cudnn9-devel",
-    "postCreateCommand": "pip install jupyter ipykernel transformers accelerate sentencepiece gradio ipywidgets",
+    "image": "python:3.11-bullseye",
+    "postCreateCommand": "pip install torch jupyter ipykernel transformers accelerate sentencepiece gradio ipywidgets",
     "runArgs": [
-        "--env-file=.devcontainer/devcontainer.env",
-        "--gpus",
-        "all"
+        "--env-file=.devcontainer/devcontainer.env"
     ],
     "customizations": {
         "vscode": {

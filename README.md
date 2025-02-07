@@ -2,7 +2,7 @@
 
 This repository provides a Jupyter Notebook environment for using the DeepSeek-AI model (and any other models available on Hugging Face) to generate code responses based on user prompts. It includes a GPU-accelerated setup and a CPU-only branch for local execution.
 
-For a detailed walkthrough of this repository and its features, check out my video on my [YouTube channel]().
+For a detailed walkthrough of this repository and its features, check out my video on my [YouTube channel](https://www.youtube.com/channel/UCc12pd-7Kyg73mU4cbW-mzg?sub_confirmation=1).
 
 ## Features
 - Uses the **DeepSeek-Coder-1.3B-Instruct** model
